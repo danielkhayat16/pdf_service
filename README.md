@@ -14,6 +14,7 @@ Send a POST request to `/cheque` with JSON body:
 
 ```json
 {
+  "emitter": "ACME Corp",
   "payee": "John Doe",
   "amount": 100.50,
   "date": "2023-01-01",

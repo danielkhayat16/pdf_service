@@ -9,6 +9,7 @@ from app.schemas import ChequeRequest
 
 def test_generate_cheque_pdf():
     payload = ChequeRequest(
+        emitter="ACME Corp",
         payee="John Doe",
         amount=123.45,
         date="2023-01-01",
